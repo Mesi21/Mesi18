@@ -9,9 +9,31 @@ i {
  color: #44bcd8;
 }
 
+#profile_pic {
+  -webkit-box-shadow: 9px 17px 17px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 9px 17px 17px -9px rgba(0,0,0,0.75);
+  box-shadow: 9px 17px 17px -9px rgba(0,0,0,0.75);
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
+}
+
+.hello {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lead {
+    color: #44bcd8;
+    font-weight: bold;
+}
+
+.lead a {
+    color: #44bcd8;
+    font-style: italic;
 }
 
 .special {
@@ -72,6 +94,8 @@ i {
 #present h1 {
     font-size: 5rem;
     font-family: 'Permanent Marker', cursive;
+    color: rgb(97, 105, 88) !important;
+
 }
 
 .container-fluid p {
@@ -82,6 +106,7 @@ i {
     display: flex;
     flex-direction: column;
     font-family: 'Aldrich', sans-serif;
+    color: rgb(97, 105, 88) !important;
 }
 
 .links {
