@@ -14,6 +14,11 @@ i {
     flex-direction: row;
 }
 
+.special {
+    color: #44bcd8 !important;
+    height: 20px;
+}
+
 #logo {
     display: flex;
     flex-direction: column;
@@ -81,15 +86,16 @@ i {
 
 .links {
     width: 80%;
-    margin: auto;
+    margin: 20px auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 
 .links h1 {
     font-family: 'Aldrich', sans-serif;
-    font-size: 3rem;
+    font-size: 2.4rem;
 }
 
 .my-btn-group {
@@ -98,6 +104,16 @@ i {
     margin: 10px;
     justify-content: space-between;
     font-family: 'Aldrich', sans-serif;
+}
+
+.my-btn-group a {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.fa-file {
+    color: red;
 }
 
 #bckg {
