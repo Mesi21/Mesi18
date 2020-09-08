@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 
 body {
     box-sizing: border-box;
 }
 
+i {
+ color: #44bcd8;
+}
+
 .navbar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #logo {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Permanent Marker', cursive;
@@ -20,22 +27,24 @@ body {
     float: right;
 }
 
-.navbar-brand {
-    margin-top: 80px;
-    line-height: 50px;
-}
 
 #navbarNav {
-    width: 100%;
+    width: 80%;
+    height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+
 }
 
 #navbarNav a { 
     margin: 30px;
     font-size: 1.5rem;
     color: white !important;
+}
+
+#navbarNav a:hover {
+    color: rgb(48, 227, 240) !important;
 }
 
 .navbar-nav {
@@ -45,6 +54,71 @@ body {
     align-items: center;
 }
 
-.right-nav a:hover {
-    color: rgb(48, 227, 240) !important;
+.navbar-toggler {
+    display: none;
+}
+
+#present {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+}
+
+#present h1 {
+    font-size: 5rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.container-fluid p {
+    font-family: 'Aldrich', sans-serif;
+}
+
+#action {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.links {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links h1 {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 3rem;
+}
+
+.my-btn-group {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+    font-family: 'Aldrich', sans-serif;
+}
+
+#bckg {
+    margin: auto;
+    width: 80%;
+    height: 600px;
+    background: url("/Assets/images/pc.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+#pc {
+    margin: 0px;
+    padding: 0px;
+    height: 400px;
+    width: 100%;
 }

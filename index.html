@@ -1,44 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="Assets/styles/reset.css">
-    <link rel="stylesheet" type="text/css" href="Assets/styles/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <title>Mesi18</title>
-</head>
-<body>
-    <nav class="navbar navbar-dark bg-dark">
-        <div id="logo">
-            <a class="navbar-brand" href="#">Mesi Molnar</a>
-            <img src="../Assets/images/mesi.JPG" alt="profile-pic" class="img-fluid mt-5" width=100 height=100>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="Assets/styles/reset.css">
+        <link rel="stylesheet" type="text/css" href="Assets/styles/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <title>Mesi18</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+            <div id="logo">
+                <a class="navbar-brand" href="#">Mesi Molnar</a>
+            </div>
+            <div class="navbar-right" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">ABOUT<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+
+        <div class="main container-fluid">
+            <div class="jumbotron" id="present">
+                <div class="container-fluid">
+                    <h1 class="display-4">Hello, everyone!</h1>
+                    <br>
+                    <p class="lead">I'm Mesi from Romania.</p>
+                    <p class="lead">I'm a full stack web developer, experienced with Ruby, JavaScript, Ruby on Rails, React&Redux.<br> 
+                        Check my work from the <a href="#">Projects</a> section! 
+                    </p>
+                </div>
+                <hr class="my-4">
+                <div class="container-fluid" id="action">
+                    <span class="offer">Like it? Contact me for discussing your ideas!</span>
+                    <span class="offer">We agree? Ready?! Action! Boom, your page is ready in notime!</span>
+                </div>
+            </div>
+            <div class="links container-fluid">
+                <h1>You can find me on: </h1>
+                <div class="my-btn-group">
+                    <button type="button" class="btn btn-info mr-5">
+                    GitHub <span class="badge badge-light"><i class="fab fa-github"></i></span>
+                    </button>
+                    <button type="button" class="btn btn-info mr-5">
+                        LinkedIn <span class="badge badge-light"><i class="fab fa-linkedin"></i></span>
+                    </button>
+                    <button type="button" class="btn btn-info">
+                        Twitter <span class="badge badge-light"><i class="fab fa-twitter"></i></span>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="container-fluid" id="bckg">
+                <p>bla</p>
+                <p>fjhg</p>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">ABOUT<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">PROJECTS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">SKILLS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
-                </li>
-            </ul>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-    </nav>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
 </html>
