@@ -6,7 +6,7 @@ body {
 }
 
 i {
- color: #44bcd8;
+ color:rgb(97, 105, 88);
 }
 
 #profile_pic {
@@ -27,18 +27,13 @@ i {
 }
 
 .lead {
-    color: #44bcd8;
+    color: #000;
     font-weight: bold;
 }
 
 .lead a {
-    color: #44bcd8;
+    color: rgb(20, 197, 20);;
     font-style: italic;
-}
-
-.special {
-    color: #44bcd8 !important;
-    height: 20px;
 }
 
 #logo {
@@ -71,7 +66,7 @@ i {
 }
 
 #navbarNav a:hover {
-    color: rgb(48, 227, 240) !important;
+    color: rgb(20, 197, 20) !important;
 }
 
 .navbar-nav {
@@ -89,6 +84,7 @@ i {
     width: 80%;
     margin: auto;
     background-color: #fff;
+    height: 400px;
 }
 
 #present h1 {
@@ -109,24 +105,39 @@ i {
     color: rgb(97, 105, 88) !important;
 }
 
-.links {
-    width: 80%;
-    margin: 20px auto;
+#links {
+    width: 100%;
+    margin: 0px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    
 }
 
-.links h1 {
+#links h1 {
     font-family: 'Aldrich', sans-serif;
     font-size: 2.4rem;
+}
+
+#bckg {
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bckg h1{
+    color: rgb(97, 105, 88);
+    font-size: 1.4rem;
 }
 
 .my-btn-group {
     display: flex;
     flex-direction: row;
-    margin: 10px;
     justify-content: space-between;
     font-family: 'Aldrich', sans-serif;
 }
@@ -141,25 +152,4 @@ i {
     color: red;
 }
 
-#bckg {
-    margin: auto;
-    width: 80%;
-    height: 600px;
-    background: url("/Assets/images/pc.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-}
 
-#pc {
-    margin: 0px;
-    padding: 0px;
-    height: 400px;
-    width: 100%;
-}
