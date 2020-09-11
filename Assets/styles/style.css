@@ -178,7 +178,7 @@ i {
 
 }
 #portfolio{
-    margin: 4% auto;
+    margin: 4% auto 10% auto;
     width: 210px;
     height: 140px;
     position: relative;
@@ -239,3 +239,15 @@ transform: scale(1.2,1.2);
     }
 }
 
+#footer {
+    width: 100%;
+    height: 30vh;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    border-top: 2px saddlebrown solid;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+}
